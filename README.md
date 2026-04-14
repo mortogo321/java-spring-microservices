@@ -35,8 +35,9 @@ Spring Boot Microservices POC with GraphQL, Service Discovery, API Gateway, and 
 | Technology             | Version    |
 |------------------------|------------|
 | Java                   | 21         |
-| Spring Boot            | 3.4.1      |
-| Spring Cloud           | 2024.0.0   |
+| Spring Boot            | 4.0.5      |
+| Spring Cloud           | 2025.1.1 (Oakwood) |
+| Spring Framework       | 7.0        |
 | Spring for GraphQL     | (Boot managed) |
 | Spring Cloud Gateway   | (Cloud managed) |
 | Netflix Eureka         | (Cloud managed) |
