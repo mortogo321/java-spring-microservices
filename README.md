@@ -234,6 +234,16 @@ When an order is placed via the `placeOrder` mutation:
 | order-service | inventory-service | WebClient | Reactive HTTP    |
 | api-gateway   | all services      | Gateway   | Eureka discovery |
 
+## Swagger UI (OpenAPI)
+
+REST endpoints are documented via SpringDoc OpenAPI 3.0:
+
+| Service           | Swagger UI                                | OpenAPI JSON                              |
+|-------------------|-------------------------------------------|-------------------------------------------|
+| product-service   | http://localhost:8081/swagger-ui/index.html | http://localhost:8081/v3/api-docs         |
+| order-service     | http://localhost:8082/swagger-ui/index.html | http://localhost:8082/v3/api-docs         |
+| inventory-service | http://localhost:8083/swagger-ui/index.html | http://localhost:8083/v3/api-docs         |
+
 ## H2 Console
 
 Each service exposes the H2 console for debugging:

@@ -1,2 +1,0 @@
--- Order service starts with empty data
--- Orders are created via GraphQL mutations
